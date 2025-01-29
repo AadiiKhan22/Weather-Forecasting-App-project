@@ -1,0 +1,61 @@
+               Style with CSS
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.weather-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#current-weather, #forecast {
+    margin-top: 20px;
+}
+
+#forecast-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forecast-item {
+    text-align: center;
+}
+
+.forecast-item img {
+    width: 50px;
+}
